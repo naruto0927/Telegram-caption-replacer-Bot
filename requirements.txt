@@ -1,0 +1,14 @@
+# Telegram MTProto client
+pyrogram==2.0.106
+
+# Fast Telegram crypto (optional but strongly recommended — ~10x faster)
+TgCrypto==1.2.5
+
+# Async MongoDB driver
+motor==3.3.2
+
+# pymongo is pulled in by motor, but pinning it avoids surprises
+pymongo==4.6.1
+
+# Load .env files in local development
+python-dotenv==1.0.0
